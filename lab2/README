@@ -1,0 +1,2 @@
+code for crawling the websites, saving the text, and fine-tuning a QA model on the crawled text.
+ evaluate the fine-tuned model on a few questions related to the Tunisian government
