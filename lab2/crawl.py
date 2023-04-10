@@ -23,8 +23,8 @@ def crawl_website(url):
 
 
 # List of URLs to crawl and save text
-urls = ['http://fr.tunisie.gov.tn/', 'http://www.finances.gov.tn/fr', 'http://www.pm.gov.tn/pm/content/index.php']
-
+#urls = ['http://fr.tunisie.gov.tn/', 'http://www.finances.gov.tn/fr', 'http://www.pm.gov.tn/pm/content/index.php']
+new_urls =['http://www.pm.gov.tn/pm/faq/liste-faq.php?lang=fr','http://www.pm.gov.tn/pm/faq/liste-faq.php?lang=fr','http://www.environnement.gov.tn/faq']
 # Loop through each URL and crawl and save the text
 for url in urls:
     crawl_website(url)
